@@ -14,7 +14,7 @@ html{
 	align-items: center;
     text-align: center;
     background: #fff;
-    padding: 5vh;
+    padding: 2vh;
 }
 		@keyframes g1{
 			0%{
@@ -59,8 +59,8 @@ html{
 		}
 
 		#herocontent{
-			margin-top: 5vh;
-            margin-bottom: 5vh;
+			margin-top: 2vh;
+            margin-bottom: 2vh;
 		}
         
         #welcome{
@@ -107,17 +107,17 @@ a{
     color : black;
 }
 p{
-    font-size: 5vh;
-    padding: 5vh;
+    font-size: 2vh;
+    padding: 2vh;
 }
 h4{
-    font-size: 6vh;
+    font-size: 3vh;
 }
 h3{
-    font-size: 7vh;
+    font-size: 4vh;
 }
 h2{
-    font-size: 8vh;
+    font-size: 6vh;
 }
 h1{
     font-size: 10vh;
@@ -128,7 +128,7 @@ header{
 }
 #container{
     margin: 0 auto;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
     justify-content: center;
 	align-items: center;
     text-align: center;
@@ -143,7 +143,7 @@ header{
 .col{
 	float:left;
 	background:#fff;
-	padding:5px;
+	padding:2vh;
 		}
 img{
    width: 100%; 
@@ -152,7 +152,7 @@ img{
 .cor{
     float:right;
     background:#fff;
-	padding:5vh;
+	padding:2vh;
 }
 .c33{
 	width:33.333333%;
@@ -168,7 +168,7 @@ ul{
 li{
     display: inline-block;
     margin: 0px;
-    padding: 10vh;
+    padding: 1vh;
     
 }
 nav{
@@ -182,7 +182,7 @@ nav{
 }
 footer{
     max-width: 100%;
-    padding: 5vh;
+    padding: 2vh;
     background: #b82837;
     text-align: center;
 }
