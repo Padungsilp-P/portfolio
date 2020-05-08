@@ -14,7 +14,7 @@ html{
 	align-items: center;
     text-align: center;
     background: #fff;
-    padding: 10vh;
+    padding: 5vh;
 }
 		@keyframes g1{
 			0%{
@@ -59,8 +59,8 @@ html{
 		}
 
 		#herocontent{
-			margin-top: 100vh;
-            margin-bottom: 100vh;
+			margin-top: 5vh;
+            margin-bottom: 5vh;
 		}
         
         #welcome{
@@ -107,20 +107,20 @@ a{
     color : black;
 }
 p{
-    font-size: 18vh;
-    padding: 20vh;
+    font-size: 5vh;
+    padding: 5vh;
 }
 h4{
-    font-size: 20vh;
+    font-size: 6vh;
 }
 h3{
-    font-size: 24vh;
+    font-size: 7vh;
 }
 h2{
-    font-size: 26vh;
+    font-size: 8vh;
 }
 h1{
-    font-size: 30vh;
+    font-size: 10vh;
 }
 header{
     max-width: 100%;
@@ -128,7 +128,7 @@ header{
 }
 #container{
     margin: 0 auto;
-    padding-bottom: 20vh;
+    padding-bottom: 5vh;
     justify-content: center;
 	align-items: center;
     text-align: center;
@@ -143,7 +143,7 @@ header{
 .col{
 	float:left;
 	background:#fff;
-	padding:20px;
+	padding:5px;
 		}
 img{
    width: 100%; 
@@ -152,7 +152,7 @@ img{
 .cor{
     float:right;
     background:#fff;
-	padding:20vh;
+	padding:5vh;
 }
 .c33{
 	width:33.333333%;
@@ -169,7 +169,6 @@ li{
     display: inline-block;
     margin: 0px;
     padding: 10vh;
-    font-size: 24vh;
     
 }
 nav{
@@ -177,7 +176,7 @@ nav{
 }
 .tetopic{
     margin: 0 auto;
-    width: 300vh;
+    width: 50vh;
     animation:g4 2s linear 1;
     border-radius: 50%;
 }
