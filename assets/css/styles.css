@@ -14,7 +14,7 @@ html{
 	align-items: center;
     text-align: center;
     background: #fff;
-    padding: 10px;
+    padding: 10vh;
 }
 		@keyframes g1{
 			0%{
@@ -59,8 +59,8 @@ html{
 		}
 
 		#herocontent{
-			margin-top: 100px;
-            margin-bottom: 100px;
+			margin-top: 100vh;
+            margin-bottom: 100vh;
 		}
         
         #welcome{
@@ -107,28 +107,28 @@ a{
     color : black;
 }
 p{
-    font-size: 20px;
-    padding: 20px;
+    font-size: 18vh;
+    padding: 20vh;
 }
 h4{
-    font-size: 24px;
+    font-size: 20vh;
 }
 h3{
-    font-size: 30px;
+    font-size: 24vh;
 }
 h2{
-    font-size: 40px;
+    font-size: 26vh;
 }
 h1{
-    font-size: 50px;
+    font-size: 30vh;
 }
 header{
     max-width: 100%;
     text-align: center;
 }
 #container{
-    margin: 0px auto;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    padding-bottom: 20vh;
     justify-content: center;
 	align-items: center;
     text-align: center;
@@ -136,30 +136,30 @@ header{
 }
 
 #container:after{
-			content:'';
-			display:block;
-			clear:both;
+	content:'';
+	display:block;
+	clear:both;
 }
 .col{
-			float:left;
-			background:#fff;
-			padding:20px;
+	float:left;
+	background:#fff;
+	padding:20px;
 		}
 img{
    width: 100%; 
 }
 
 .cor{
-			float:right;
-			background:#fff;
-			padding:20px;
+    float:right;
+    background:#fff;
+	padding:20vh;
 }
 .c33{
-			width:33.333333%;
+	width:33.333333%;
 }
 
 .c66{
-			width:66.666667%;
+	width:66.666667%;
 }
 ul{
     list-style: none;
@@ -168,8 +168,8 @@ ul{
 li{
     display: inline-block;
     margin: 0px;
-    padding: 10px;
-    font-size: 24px;
+    padding: 10vh;
+    font-size: 24vh;
     
 }
 nav{
@@ -177,13 +177,13 @@ nav{
 }
 .tetopic{
     margin: 0 auto;
-    width: 300px;
+    width: 300vh;
     animation:g4 2s linear 1;
     border-radius: 50%;
 }
 footer{
     max-width: 100%;
-    padding: 5px;
+    padding: 5vh;
     background: #b82837;
     text-align: center;
 }
