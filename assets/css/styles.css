@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+	box-sizing:border-box;
+	font-family: 'Oswald', sans-serif;
+            
+}
+html{
+    background: #EEEEEE;
+}
+    #hero{
+    animation:g4 2s linear 1;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+}
+		@keyframes g1{
+			0%{
+				opacity: 0;
+			}
+            20%{
+				opacity: 1;
+			}
+		}
+        @keyframes g2{
+			0%{
+				opacity: 0;
+			}
+            20%{
+				opacity: 0;
+			}
+            40%{
+				opacity: 1;
+			}
+		}
+        @keyframes g3{
+			0%{
+				opacity: 0;
+			}
+            40%{
+				opacity: 0;
+			}
+            60%{
+				opacity: 1;
+			}
+		}
+         @keyframes g4{
+			0%{
+				opacity: 0;
+			}
+            60%{
+				opacity: 0;
+			}
+            80%{
+                opacity: 1;
+            }
+		}
+
+		#herocontent{
+			margin-top: 100px;
+            margin-bottom: 100px;
+		}
+        
+        #welcome{
+            animation:g1 2s linear 1;
+        }
+        #to{
+            animation:g2 2s linear 1;
+        }
+        #name{
+            animation:g3 2s linear 1;
+            padding-bottom: 5vh;
+        }
+        #detail{
+            animation:g4 2s linear 1;
+        }
+        #footer{
+            animation:g4 2s linear 1;
+            padding-bottom: 5vh;
+        }
+
+        h1, h2{
+            text-align: center;
+        }
+		@keyframes sam{
+			0%{
+				background:#f00;
+				color:#fff;
+				transform:scale(1,1);
+			}
+			50%{
+				background:#fff;
+				color:#f00;
+				transform:scale(.75,.75);
+			}
+			100%{
+				background:#f00;
+				color:#fff;
+				transform:scale(1,1);
+			}
+		}
+a{
+    text-decoration: none;
+    font-style: bold;
+    color : black;
+}
+p{
+    font-size: 20px;
+    padding: 20px;
+}
+h4{
+    font-size: 24px;
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 50px;
+}
+header{
+    max-width: 100%;
+    text-align: center;
+}
+#container{
+    margin: 0px auto;
+    padding-bottom: 20px;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    background: #fff;
+}
+
+#container:after{
+			content:'';
+			display:block;
+			clear:both;
+}
+.col{
+			float:left;
+			background:#fff;
+			padding:20px;
+		}
+img{
+   width: 100%; 
+}
+
+.cor{
+			float:right;
+			background:#fff;
+			padding:20px;
+}
+.c33{
+			width:33.333333%;
+}
+
+.c66{
+			width:66.666667%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+nav{
+    background: #b82837;
+}
+.tetopic{
+    margin: 0 auto;
+    width: 300px;
+    animation:g4 2s linear 1;
+    border-radius: 50%;
+}
+footer{
+    max-width: 100%;
+    padding: 5px;
+    background: #b82837;
+    text-align: center;
+}
