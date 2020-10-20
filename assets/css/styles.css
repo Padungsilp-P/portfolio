@@ -7,15 +7,21 @@
 html{
     background: #EEEEEE;
 }
+body{
+    width: 150vh;
+    margin: 0 auto;
+}
     #hero{
-    animation:g4 2s linear 1;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    animation:g3 2s linear 1;
 	display:flex;
 	justify-content: center;
 	align-items: center;
     text-align: center;
     background: #fff;
     padding: 2vh;
-}
+}   
 		@keyframes g1{
 			0%{
 				opacity: 0;
@@ -71,7 +77,6 @@ html{
         }
         #name{
             animation:g3 2s linear 1;
-            padding-bottom: 5vh;
         }
         #detail{
             animation:g4 2s linear 1;
@@ -127,11 +132,12 @@ header{
     text-align: center;
 }
 #container{
-    margin: 0 auto;
-    padding-bottom: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 2vh;
     justify-content: center;
 	align-items: center;
-    text-align: center;
+    text-align: left;
     background: #fff;
 }
 
@@ -161,6 +167,9 @@ img{
 .c66{
 	width:66.666667%;
 }
+.c{
+    text-align: center;
+}
 ul{
     list-style: none;
     padding: 0px;
@@ -177,7 +186,7 @@ nav{
 .tetopic{
     margin: 0 auto;
     width: 50vh;
-    animation:g4 2s linear 1;
+    animation:g3 2s linear 1;
     border-radius: 50%;
 }
 footer{
