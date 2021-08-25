@@ -159,6 +159,7 @@ form > button {
     top: 0;
     margin: 2vh;
     opacity: 0;
+    -webkit-appearance: none;
 }
 .bar {
   width: 100%;
