@@ -152,6 +152,14 @@ form > button {
     cursor: pointer;
 }
 
+.checkboxhide {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    margin: 2vh;
+    opacity: 0;
+}
 .bar {
   width: 100%;
   height: 2px;
@@ -210,7 +218,7 @@ form > button {
   border-radius: 100%;
 }
 
-.navigation-block:hover .bar.upper-bar,
+/*.navigation-block:hover .bar.upper-bar,
 .navigation-block:hover .bar.lower-bar {
   transform: translatey(0px);
 }
@@ -234,7 +242,33 @@ form > button {
 .navigation-block:hover .menu-background {
   animation: bubblePresent 0.3s ease-out;
   transform: translate(-50%, -30%);
+}*/
+
+.navigation-block input:checked ~ div.bar.upper-bar,
+.navigation-block input:checked ~ .bar.lower-bar {
+  transform: translatey(0px);
 }
+
+.navigation-block input:checked ~ .bar.upper-bar {
+  transform: rotate(45deg);
+}
+
+.navigation-block input:checked ~ .bar.lower-bar {
+  transform: rotate(-45deg);
+}
+
+.navigation-block input:checked ~ .bar.middle-bar {
+  transform: translatex(-1000px);
+}
+
+.navigation-block input:checked ~ .menu-list{
+  display: block;
+}
+.navigation-block input:checked ~ .menu-background {
+  animation: bubblePresent 0.3s ease-out;
+  transform: translate(-50%, -30%);
+}
+
 
 @keyframes linkAnimation {
   0% {
