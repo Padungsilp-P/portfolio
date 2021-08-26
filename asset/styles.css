@@ -375,18 +375,16 @@ button.next:focus + .slide__container .slide {
 }
 .popup-inner {
   position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background-color: #fff;
+padding: 8% 10%;
+  width: 80%;
+ 
 }
 .popupphoto {
   flex: 1;
     height: 50vh;
 }
 .popupphoto img {
-  width: auto;
-  height: 100%;
+  width: 100%;
 }
 .popuptext {
   flex: 1.5;
@@ -441,6 +439,7 @@ button.next:focus + .slide__container .slide {
 
 .porfolioslide {
     width:90vh;
+    margin-bottom: 20vh;
 }
 .porfolioslide ul {
     list-style: none outside none;
@@ -463,6 +462,9 @@ button.next:focus + .slide__container .slide {
     filter: invert(1);
 }
 @media screen and (max-width: 767px){
+    .work{
+        background-position: 30%;
+    }
     h1,h2,h3{
         line-height: 100%;
     }
@@ -478,4 +480,28 @@ button.next:focus + .slide__container .slide {
     .contact a{
         font-size: 9.5vw;
     }
+    .popup-inner {
+  position: relative;
+ padding: 0%;
+  width: 100%;
+ 
+}
+    .porfolioslide {
+        width:42vh;
+    }
+    
+    .popuptext {
+   
+        padding: 4vw;
+    }
+    .lSSlideWrapper {
+        background: white;
+    }
+    .lSAction > a {
+        opacity: 0 !important;
+    }
+    section {
+        margin: 1vh;
+    }
+ 
 }
