@@ -87,6 +87,7 @@ form > button {
 .contact a {
     text-decoration: none;
     color: white;
+    font-size:10vh;
 }
 .worktext{
     text-align: center;
@@ -374,37 +375,23 @@ button.next:focus + .slide__container .slide {
 }
 .popup-inner {
   position: relative;
-  bottom: -100vw;
-  right: -100vh;
   display: flex;
   align-items: center;
-  max-width: 800px;
-  max-height: 600px;
-  width: 60%;
-  height: 80%;
+  width: 100%;
   background-color: #fff;
-  transform: rotate(32deg);
-  transition: .64s ease-in-out;
 }
 .popupphoto {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 40%;
-  height: 100%;
-  overflow: hidden;
+  flex: 1;
+    height: 50vh;
 }
 .popupphoto img {
   width: auto;
   height: 100%;
 }
 .popuptext {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60%;
-  height: 100%;
-  padding: 4rem;
+  flex: 1.5;
+    background: white;
+    padding: 4vh;
 }
 .popuptext h1 {
   font-size: 3vh;
@@ -450,4 +437,45 @@ button.next:focus + .slide__container .slide {
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+}
+
+.porfolioslide {
+    width:90vh;
+}
+.porfolioslide ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+.porfolioslide li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+.porfolioslide img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100% !important;
+}
+.lSAction > a {
+    filter: invert(1);
+}
+@media screen and (max-width: 767px){
+    h1,h2,h3{
+        line-height: 100%;
+    }
+    h1{
+        font-size: 20vw;
+    }
+    h2{
+        font-size: 12vw;
+    }
+    h3{
+        font-size: 15vw;
+    }
+    .contact a{
+        font-size: 9.5vw;
+    }
 }
