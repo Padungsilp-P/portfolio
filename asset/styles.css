@@ -438,8 +438,9 @@ padding: 8% 10%;
 }
 
 .porfolioslide {
-    width:90vh;
+    width:89vh;
     margin-bottom: 20vh;
+    margin-left: 1px;
 }
 .porfolioslide ul {
     list-style: none outside none;
