@@ -517,5 +517,8 @@ padding: 8% 10%;
     section {
         margin: 1vh;
     }
+    .about > div > p{
+        width: 100%;
+    }
  
 }
