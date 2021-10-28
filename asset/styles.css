@@ -356,7 +356,7 @@ button.next:focus + .slide__container .slide {
   transform: translateX(-100%);
 }
 
-.about > div > h1{
+.about > div > h3{
     color: white;
     text-shadow: .3vh .3vh orange;
 }
